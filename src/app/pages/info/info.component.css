@@ -1,0 +1,50 @@
+.flex-wrapper {
+  background-color: #ddd;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #010101;
+}
+
+app-footer {
+  margin-top: auto;
+}
+.info-block {
+  margin: 88px 100px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.info-block h1 {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.info-block li {
+  font-size: 32px;
+  margin-left: 60px;
+}
+ul {
+  margin-top: 20px;
+  list-style-type: "✔ ";
+}
+
+.current-place {
+  margin: 132px 100px 40px;
+  font-size: 32px;
+}
+
+a,
+a:link,
+a:visited {
+  margin: 0 100px 0;
+  font-size: 32px;
+  color: #010101;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  margin: 40px 100px 0;
+  text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+.flex-wrapper {
+  background-color: #ddd;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #010101;
+}
+
+app-footer {
+  margin-top: auto;
+}
+
+.sample {
+  display: flex;
+  align-items: center;
+}
+
+.sample-img {
+  width: 350px;
+  height: 218.75px;
+}
+
+.sample-text {
+  margin-left: 32px;
+}
+
+.sample-text li {
+  margin-left: 32px;
+}
+
+ul {
+  margin-top: 20px;
+  list-style-type: "✔ ";
+}
+h1 {
+  margin: 100px 0 16px;
+  font-size: 48px;
+  font-weight: 500;
+}
+h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+li{
+  font-size: 24px;
+}
+.body {
+  margin: -20px 100px 50px;
+}
+.carousel-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

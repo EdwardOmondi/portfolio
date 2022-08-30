@@ -1,0 +1,40 @@
+.spacer-left {
+  width: 100px;
+}
+
+.spacer-right {
+  width: 100px;
+}
+
+.header .logo {
+  font-size: 48px;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+a:link, a:visited {
+  color: #010101;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.header li:last-child {
+  padding-right: 0;
+}

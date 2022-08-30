@@ -1,0 +1,23 @@
+.flex-wrapper {
+  background-color: #ddd;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+app-footer {
+  margin-top: auto;
+}
+h1 {
+  margin: 126px 100px 50px;
+  font-size: 48px;
+  font-weight: 500;
+}
+ul {
+  list-style-type: "✔ ";
+}
+li {
+  font-size: 40px;
+  margin-left: 200px;
+}
+
