@@ -1,0 +1,163 @@
+$progress-bar-width: 0.1875rem;
+$java-experience: 85;
+$python-experience: 80;
+$ts-experience: 85;
+$angular-experience: 90;
+$react-experience: 45;
+$flutter-experience: 65;
+$dart-experience: 60;
+$spring-experience: 85;
+$vue-experience: 30;
+$flask-experience: 30;
+
+$animation-duration: 1.5s;
+
+.java-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: java-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.python-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: python-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.angular-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: angular-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.ts-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: ts-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.react-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: react-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.flutter-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: flutter-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.dart-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: dart-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.spring-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: spring-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.vue-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: vue-progress-animation $animation-duration forwards ease-in-out;
+}
+
+.flask-progress-bar {
+  stroke-width: $progress-bar-width;
+  stroke-linecap: round;
+  animation: flask-progress-animation $animation-duration forwards ease-in-out;
+}
+
+@keyframes java-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $java-experience, 100;
+  }
+}
+
+@keyframes python-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $python-experience, 100;
+  }
+}
+
+@keyframes angular-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $angular-experience, 100;
+  }
+}
+
+@keyframes ts-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $ts-experience, 100;
+  }
+}
+
+@keyframes react-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $react-experience, 100;
+  }
+}
+
+@keyframes flutter-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $flutter-experience, 100;
+  }
+}
+
+@keyframes dart-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $dart-experience, 100;
+  }
+}
+
+@keyframes spring-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $spring-experience, 100;
+  }
+}
+
+@keyframes vue-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $vue-experience, 100;
+  }
+}
+
+@keyframes flask-progress-animation {
+  from {
+    stroke-dasharray: 0, 100;
+  }
+  to {
+    stroke-dasharray: $flask-experience, 100;
+  }
+}
