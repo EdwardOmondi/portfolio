@@ -25,7 +25,114 @@
       >
         Download CV
       </a>
+      <a
+        href="#contact"
+        class="bg-tertiary-200 text-tertiary-800 text-lg py-2 px-4 rounded-2xl mt-6 md:mt-0"
+      >
+        Contact Me
+      </a>
     </div>
   </section>
-  <section id="contact"></section>
+  <section
+    id="contact"
+    class="flex flex-col min-h-screen items-center justify-center"
+  >
+    <div class="">
+      <h2 class="mb-4 text-4xl font-bold text-center text-tertiary-400">
+        Contact Me
+      </h2>
+      <p class="mb-2 text-center text-primary-300 sm:text-xl">
+        Email:
+        <a
+          class="text-primary-200 hover:underline"
+          href="mailto:info@aims.homes"
+        >
+          ewomondi&#64;gmail.com
+        </a>
+      </p>
+      <p class="mb-2 text-center text-primary-300 sm:text-xl">
+        Phone:
+        <a class="text-primary-200 hover:underline" href="tel:+254701088334">
+          +254 701 088 334
+        </a>
+      </p>
+      <p
+        class="mt-4 mb-4 lg:mt-8 lg:mb-8 text-center text-primary-300 sm:text-xl"
+      >
+        OR
+      </p>
+    </div>
+    <form
+      action="https://formsubmit.co/ewomondi@gmail.com"
+      method="POST"
+      class="space-y-6 sm:min-w-[50vw]"
+    >
+      <div>
+        <label for="name" class="block mb-2 font-medium text-primary-300">
+          Your name
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="shadow-sm bg-gray-50 border border-primary-3 text-gray-900 rounded-lg focus:ring-primary-5 focus:border-primary-5 ring-primary-5 block w-full p-2.5"
+          placeholder="John Doe"
+          required
+        />
+      </div>
+      <div>
+        <label for="email" class="block mb-2 font-medium text-primary-300">
+          Your email
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="shadow-sm bg-gray-50 border border-primary-3 text-gray-900 rounded-lg focus:ring-primary-5 focus:border-primary-5 ring-primary-5 block w-full p-2.5"
+          placeholder="name@aims.com"
+          required
+        />
+      </div>
+      <div>
+        <label for="subject" class="block mb-2 font-medium text-primary-300">
+          Subject
+        </label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          class="block p-3 w-full text-gray-900 bg-gray-50 rounded-lg border border-primary-3 shadow-sm focus:ring-primary-5 focus:border-primary-5 ring-primary-5"
+          placeholder="Let me know how I can help you"
+          required
+        />
+      </div>
+      <div>
+        <label for="message" class="block mb-2 font-medium text-primary-300">
+          Your message
+        </label>
+        <textarea
+          id="message"
+          rows="4"
+          name="message"
+          class="block p-2.5 w-full text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-primary-3 focus:ring-primary-5 focus:border-primary-5 ring-primary-5"
+          placeholder="Leave a comment..."
+          required
+        ></textarea>
+      </div>
+      <div class="flex items-center gap-2 mt-4">
+        <button
+          type="submit"
+          class="bg-primary-200 text-primary-800 text-lg py-2 px-4 rounded-2xl"
+        >
+          Send message
+        </button>
+        <a
+          href="#home"
+          class="bg-primary-600 text-primary-100 text-lg py-2 px-4 rounded-2xl"
+        >
+          Go back
+        </a>
+      </div>
+    </form>
+  </section>
 </div>
