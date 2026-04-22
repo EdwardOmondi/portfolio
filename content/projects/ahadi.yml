@@ -1,0 +1,6 @@
+title: Ahadi - Pledge tracker for Financial Campaigns
+description: Nuxt Springboot application built to allow organisations to register pledges for campaigns, and allow them to collect and track via mpesa.
+image: https://picsum.photos/seed/ahadi/1470/980
+url: https://churchprojects.rgchuruma.org
+tags: ["Springboot", "Nuxt", "TypeScript", "UI/UX", "Full-stack"]
+date: "2026"

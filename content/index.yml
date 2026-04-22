@@ -35,38 +35,38 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "Software Engineer at"
-      date: "2022 - Present"
-      company:
-        name: Technovation Ventures
-        logo: "i-lucide-code-2"
-        url: "https://edwardomondi.github.io"
-        color: "#2563EB"
-    - position: "Co-Founder & Software Architect at"
+    - position: "Co-Founder & Software Architect"
       date: "2025 - Present"
       company:
         name: Cardly
         logo: "i-lucide-gift"
         url: "https://cardly.gift"
         color: "#7C3AED"
-    - position: "MD & Co-Founder at"
+    - position: "Software Engineer"
+      date: "2022 - Present"
+      company:
+        name: Technovation Ventures
+        logo: "i-lucide-code-2"
+        url: "https://technovation.co.ke/"
+        color: "#2563EB"
+    - position: "MD & Co-Founder"
       date: "2022 - Present"
       company:
         name: Aims
         logo: "i-lucide-home"
-        url: "https://aims.homes/demo"
+        url: "https://aims.homes"
         color: "#059669"
 testimonials:
   - quote: "Edward has an exceptional ability to deliver complex full-stack features on time without sacrificing quality. His deep knowledge of Spring Boot and Angular made our product launch seamless, and his CI/CD automation saved us weeks of manual deployment work."
     author:
-      name: 'Co-founder, Aims'
+      name: 'Kennedy, Aims'
       description: 'Smart Lock & Property Management Platform'
       avatar:
         src: 'https://picsum.photos/seed/aims/40/40'
         srcset: 'https://picsum.photos/seed/aims/80/80 2x'
   - quote: "Working with Edward on Cardly was a fantastic experience. He designed and built our entire Vue/Spring Boot stack from scratch, delivering a production-ready gift card platform that scales effortlessly. His technical breadth — from database design to OAuth integration — is remarkable."
     author:
-      name: 'Co-founder, Cardly'
+      name: 'Fransisco, Cardly'
       description: 'Gift Card & Loyalty Platform'
       avatar:
         src: 'https://picsum.photos/seed/cardly/40/40'

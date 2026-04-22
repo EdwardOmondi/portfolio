@@ -2,12 +2,12 @@
 title: Building Production-Ready REST APIs with Spring Boot
 description: A practical guide to designing and implementing scalable REST APIs using Spring Boot — covering layered architecture, validation, exception handling, and security patterns I use in production.
 date: 2026-02-10
-image: https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: https://kambei.dev/assets/img/posts/spring_logos.png
 minRead: 7
 author:
   name: Edward Omondi
   avatar:
-    src: /images/edward-profile.jpg
+    src: /images/edward-profile.png
     alt: Edward Omondi
 ---
 

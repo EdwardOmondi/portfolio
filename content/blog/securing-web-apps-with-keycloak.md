@@ -7,7 +7,7 @@ minRead: 8
 author:
   name: Edward Omondi
   avatar:
-    src: /images/edward-profile.jpg
+    src: /images/edward-profile.png
     alt: Edward Omondi
 ---
 
@@ -50,11 +50,13 @@ On the frontend, an HTTP interceptor attaches the JWT to every outgoing request 
 
 ```typescript
 export const authInterceptor: HttpInterceptorFn = (req, next) => {
-  const token = inject(KeycloakService).getToken()
-  return next(req.clone({
-    setHeaders: { Authorization: `Bearer ${token}` }
-  }))
-}
+  const token = inject(KeycloakService).getToken();
+  return next(
+    req.clone({
+      setHeaders: { Authorization: `Bearer ${token}` },
+    }),
+  );
+};
 ```
 
 ## Extracting Roles from JWT

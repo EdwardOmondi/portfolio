@@ -1,6 +1,6 @@
 title: Aims - Smart Lock Property Management
 description: Full-stack Angular / Spring Boot web application connected to a Raspberry Pi (Python) controller for solenoid smart locks. Enables short-term rental hosts to remotely manage access to their Airbnb, lodging, and hotel units.
 image: https://picsum.photos/seed/aims-project/1470/980
-url: https://aims.homes/demo
+url: https://aims.homes
 tags: ["Angular", "Spring Boot", "Java", "PostgreSQL", "Raspberry Pi", "Python", "IoT"]
 date: "2022"

@@ -7,7 +7,7 @@ minRead: 6
 author:
   name: Edward Omondi
   avatar:
-    src: /images/edward-profile.jpg
+    src: /images/edward-profile.png
     alt: Edward Omondi
 ---
 

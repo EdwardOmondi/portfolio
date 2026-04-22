@@ -1,4 +1,4 @@
-title: Certifications & Courses
+title: Certifications & Course
 description: Professional certifications and training courses in software engineering, cybersecurity, and business.
 links:
   - label: Download CV
@@ -16,22 +16,7 @@ events:
     location: "Cisco Networking Academy, Online"
     url: "#"
   - category: Course
-    title: "Angular Bootcamp"
-    date: "2022-08-31"
-    location: "Udemy, Online"
-    url: "#"
-  - category: Course
-    title: "Spring Boot Bootcamp"
-    date: "2022-11-30"
-    location: "Udemy, Online"
-    url: "#"
-  - category: Course
-    title: "Flutter Bootcamp"
-    date: "2021-06-30"
-    location: "Udemy, Online"
-    url: "#"
-  - category: Course
-    title: "Business MBA"
-    date: "2020-10-31"
-    location: "Udemy, Online"
+    title: "BSc. Mechatronics Engineering"
+    date: "2021-04-19"
+    location: "Jomo Kenyatta University of Agriculture & Technology"
     url: "#"

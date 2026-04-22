@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/images/edward-profile.jpg',
-      light: '/images/edward-profile.jpg',
+      dark: '/images/edward-profile.png',
+      light: '/images/edward-profile.png',
       alt: 'Edward Omondi'
     },
     meetingLink: 'mailto:ewomondi@gmail.com',

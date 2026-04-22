@@ -2,12 +2,12 @@
 title: Angular State Management Without the Bloat
 description: How I manage state in Angular applications without heavy libraries — using signals, services, and smart component design to keep things simple, fast, and maintainable.
 date: 2026-01-15
-image: https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: https://images.pexels.com/photos/11035543/pexels-photo-11035543.jpeg
 minRead: 5
 author:
   name: Edward Omondi
   avatar:
-    src: /images/edward-profile.jpg
+    src: /images/edward-profile.png
     alt: Edward Omondi
 ---
 
@@ -18,16 +18,16 @@ State management is where many Angular projects become unnecessarily complex. Af
 For most application state, a well-designed service with `BehaviorSubject` observables is all you need. Components subscribe to the stream, the service manages transitions — no store libraries required.
 
 ```typescript
-@Injectable({ providedIn: 'root' })
+@Injectable({ providedIn: "root" })
 export class AuthService {
-  private currentUser$ = new BehaviorSubject<User | null>(null)
+  private currentUser$ = new BehaviorSubject<User | null>(null);
 
   getUser(): Observable<User | null> {
-    return this.currentUser$.asObservable()
+    return this.currentUser$.asObservable();
   }
 
   setUser(user: User): void {
-    this.currentUser$.next(user)
+    this.currentUser$.next(user);
   }
 }
 ```
@@ -38,11 +38,11 @@ Angular's built-in signals are now my first choice for component-level and simpl
 
 ```typescript
 export class DashboardComponent {
-  count = signal(0)
-  doubled = computed(() => this.count() * 2)
+  count = signal(0);
+  doubled = computed(() => this.count() * 2);
 
   increment() {
-    this.count.update(v => v + 1)
+    this.count.update((v) => v + 1);
   }
 }
 ```
@@ -59,9 +59,9 @@ Pair this approach with `ChangeDetectionStrategy.OnPush` on all components. Comb
 
 ```typescript
 @Component({
-  selector: 'app-property-card',
+  selector: "app-property-card",
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: `...`
+  template: `...`,
 })
 export class PropertyCardComponent {}
 ```

@@ -4,11 +4,11 @@ type Event = {
   date: string
   location: string
   url?: string
-  category: 'Conference' | 'Certificate' | 'Course'
+  category: 'Certificate' | 'Course'
 }
 
-const { data: page } = await useAsyncData('speaking', () => {
-  return queryCollection('speaking').first()
+const { data: page } = await useAsyncData('certification', () => {
+  return queryCollection('certification').first()
 })
 if (!page.value) {
   throw createError({
@@ -32,7 +32,6 @@ const groupedEvents = computed((): Partial<Record<Event['category'], Event[]>> =
   const grouped: Record<Event['category'], Event[]> = {
     'Certificate': [],
     'Course': [],
-    'Conference': []
   }
   for (const event of events) {
     if (grouped[event.category]) grouped[event.category].push(event)

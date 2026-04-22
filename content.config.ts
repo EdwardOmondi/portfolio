@@ -105,13 +105,13 @@ export default defineContentConfig({
         links: z.array(createButtonSchema())
       })
     }),
-    speaking: defineCollection({
+    certification: defineCollection({
       type: 'page',
-      source: 'speaking.yml',
+      source: 'certification.yml',
       schema: z.object({
         links: z.array(createButtonSchema()),
         events: z.array(z.object({
-          category: z.enum(['Certificate', 'Course', 'Conference']),
+          category: z.enum(['Certificate', 'Course']),
           title: z.string(),
           date: z.date(),
           location: z.string(),

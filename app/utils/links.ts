@@ -15,7 +15,7 @@ export const navLinks: NavigationMenuItem[] = [{
 }, {
   label: 'Certifications',
   icon: 'i-lucide-award',
-  to: '/speaking'
+  to: '/certification'
 }, {
   label: 'About',
   icon: 'i-lucide-user',
