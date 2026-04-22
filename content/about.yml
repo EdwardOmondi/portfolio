@@ -1,0 +1,25 @@
+title: About Me
+description: Learn more about my journey as a Nairobi-based Software Engineer specialising in Java/Spring, Angular, Nuxt, and full-stack application development.
+content: |
+  Hi, I'm **Edward Omondi**, a Software Engineer based in **Nairobi, Kenya**, with over 5 years of experience designing, building, and deploying full-stack web and mobile applications. My work spans SaaS platforms, IoT systems, and mobile apps — always with a focus on clean architecture and real-world performance.
+
+  My foundation is a **BSc in Mechatronics Engineering from JKUAT**, which gives me an unusual ability to bridge hardware and software — from writing firmware for microcontrollers to building enterprise Spring Boot APIs. After graduating, I've channelled that systems-thinking mindset into full-stack software engineering.
+
+  ### My Tech Stack
+
+  On the backend, I work primarily in **Java** — with Spring Boot, Spring MVC, and Jakarta EE — backed by **PostgreSQL** for data persistence and **Keycloak** for OAuth 2.0 authentication. On the frontend, I build with **Angular** and **Nuxt (Vue)**, and use **Flutter** for cross-platform mobile apps. I deploy and maintain applications on bare metal and virtual Linux servers with automated CI/CD pipelines.
+
+  ### What I've Built
+
+  I co-founded and built **[Cardly](https://cardly.gift)** — a full-scale Vue/Spring Boot gift card and loyalty platform — and **[Aims](https://aims.homes/demo)** — an Angular/Spring Boot application connected to a Raspberry Pi that controls smart locks for short-term rental units. I've also delivered projects like **[Herdwise](https://herdwiseapp.web.app)** (livestock data collection) and a bulk SMS platform for clients in Mexico.
+
+  ### Beyond the Code
+
+  Outside of work, I'm a car enthusiast, board game fan, and music lover. I completed my **Certified Ethical Hacking (CEH)** certification in late 2024, which feeds my interest in building secure, robust systems.
+
+  Feel free to browse my [projects](/projects) or [get in touch](mailto:ewomondi@gmail.com) if you'd like to collaborate!
+images:
+  - src: /images/edward-profile.jpg
+    alt: Edward Omondi - Profile Photo
+  - src: /images/edward-workspace.jpg
+    alt: My workspace in Nairobi

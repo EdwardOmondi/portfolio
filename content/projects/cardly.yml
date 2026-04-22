@@ -1,0 +1,6 @@
+title: Cardly - Gift Card & Loyalty Platform
+description: Designed, developed, deployed and continuously maintain a Vue (JavaScript) / Spring Boot (Java) full-stack SaaS platform enabling organisations to create, manage and share redeemable gift cards, and run a loyalty points programme for their customers.
+image: https://picsum.photos/seed/cardly-project/1470/980
+url: https://cardly.gift
+tags: ["Vue", "Nuxt", "Spring Boot", "Java", "PostgreSQL", "Keycloak"]
+date: "2025"

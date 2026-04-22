@@ -1,0 +1,37 @@
+title: Certifications & Courses
+description: Professional certifications and training courses in software engineering, cybersecurity, and business.
+links:
+  - label: Download CV
+    to: /cv.pdf
+    size: md
+events:
+  - category: Certificate
+    title: "Certified Ethical Hacking (CEH)"
+    date: "2024-11-30"
+    location: "EC Council via Strathmore University, Nairobi"
+    url: "#"
+  - category: Certificate
+    title: "Introduction to Cyber Security"
+    date: "2024-10-01"
+    location: "Cisco Networking Academy, Online"
+    url: "#"
+  - category: Course
+    title: "Angular Bootcamp"
+    date: "2022-08-31"
+    location: "Udemy, Online"
+    url: "#"
+  - category: Course
+    title: "Spring Boot Bootcamp"
+    date: "2022-11-30"
+    location: "Udemy, Online"
+    url: "#"
+  - category: Course
+    title: "Flutter Bootcamp"
+    date: "2021-06-30"
+    location: "Udemy, Online"
+    url: "#"
+  - category: Course
+    title: "Business MBA"
+    date: "2020-10-31"
+    location: "Udemy, Online"
+    url: "#"

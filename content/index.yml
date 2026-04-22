@@ -1,0 +1,113 @@
+seo:
+  title: "Edward Omondi - Software Engineer"
+  description: "Welcome to my portfolio! I'm Edward Omondi, a full-stack Software Engineer based in Nairobi, Kenya, specialising in Java/Spring and modern web frameworks like Angular and Nuxt."
+title: "Hey, I'm Edward Omondi Software Engineer"
+description: "I build scalable full-stack applications where clean architecture meets user-centric design. Based in Nairobi, delivering production-grade solutions from IoT controllers to SaaS platforms."
+hero:
+  links:
+    - label: "View my GitHub"
+      to: https://github.com/EdwardOmondi
+      color: "neutral"
+      target: "_blank"
+  images:
+    - src: /hero/random-1.avif
+      alt: Random Image 1
+    - src: /hero/random-2.avif
+      alt: Random Image 2
+    - src: /hero/random-3.avif
+      alt: Random Image 3
+    - src: /hero/random-4.avif
+      alt: Random Image 4
+    - src: /hero/random-5.avif
+      alt: Random Image 5
+    - src: /hero/random-6.avif
+      alt: Random Image 6
+    - src: /hero/random-7.avif
+      alt: Random Image 7
+    - src: /hero/random-8.avif
+      alt: Random Image 8
+    - src: /hero/random-9.avif
+      alt: Random Image 9
+about:
+  title: "About Me"
+  description: |
+    Full-stack Software Engineer with 5+ years of experience designing, building, and deploying scalable web and mobile applications. I specialise in Java/Spring ecosystems and modern frameworks like Angular and Nuxt (Vue), combining a Mechatronics Engineering background to bridge hardware-software gaps — from REST APIs to IoT controllers.
+experience:
+  title: Work Experience
+  items:
+    - position: "Software Engineer at"
+      date: "2022 - Present"
+      company:
+        name: Technovation Ventures
+        logo: "i-lucide-code-2"
+        url: "https://edwardomondi.github.io"
+        color: "#2563EB"
+    - position: "Co-Founder & Software Architect at"
+      date: "2025 - Present"
+      company:
+        name: Cardly
+        logo: "i-lucide-gift"
+        url: "https://cardly.gift"
+        color: "#7C3AED"
+    - position: "MD & Co-Founder at"
+      date: "2022 - Present"
+      company:
+        name: Aims
+        logo: "i-lucide-home"
+        url: "https://aims.homes/demo"
+        color: "#059669"
+testimonials:
+  - quote: "Edward has an exceptional ability to deliver complex full-stack features on time without sacrificing quality. His deep knowledge of Spring Boot and Angular made our product launch seamless, and his CI/CD automation saved us weeks of manual deployment work."
+    author:
+      name: 'Co-founder, Aims'
+      description: 'Smart Lock & Property Management Platform'
+      avatar:
+        src: 'https://picsum.photos/seed/aims/40/40'
+        srcset: 'https://picsum.photos/seed/aims/80/80 2x'
+  - quote: "Working with Edward on Cardly was a fantastic experience. He designed and built our entire Vue/Spring Boot stack from scratch, delivering a production-ready gift card platform that scales effortlessly. His technical breadth — from database design to OAuth integration — is remarkable."
+    author:
+      name: 'Co-founder, Cardly'
+      description: 'Gift Card & Loyalty Platform'
+      avatar:
+        src: 'https://picsum.photos/seed/cardly/40/40'
+        srcset: 'https://picsum.photos/seed/cardly/80/80 2x'
+blog:
+  title: "Latest Articles"
+  description: "Thoughts on software engineering, architecture, and building for the real world"
+faq:
+  title: Frequently Asked Questions
+  description: Common questions about my work, process, and experience.
+  categories:
+    - title: Skills & Expertise
+      questions:
+        - label: What technologies do you specialise in?
+          content: |
+            My core stack is Java (Spring Boot / Jakarta EE) on the backend, paired with Angular or Nuxt (Vue) on the frontend, with PostgreSQL as my go-to database. I also work with Flutter for mobile, Python for scripting and IoT (Raspberry Pi), Firebase, and DevOps tooling for CI/CD on Linux servers.
+        - label: Do you do both frontend and backend development?
+          content: |
+            Yes, I'm a full-stack engineer. I design and implement REST APIs and microservices in Java/Spring, build responsive frontends in Angular or Nuxt/Vue, and handle everything in between — database design, authentication (Keycloak/OAuth 2.0), deployment, and server configuration.
+        - label: Have you worked with IoT or hardware projects?
+          content: |
+            Yes — my Mechatronics Engineering background gives me a unique edge here. I've built IoT systems using Raspberry Pi and Python, including an RFID-based point tracking system and a smart solenoid lock controller connected to a web application.
+    - title: Working Together
+      questions:
+        - label: Are you available for freelance or contract work?
+          content: |
+            Yes, I'm open to freelance projects, contract engagements, and consulting. I've previously delivered end-to-end applications for clients across Kenya and Mexico. Feel free to reach out via email at ewomondi@gmail.com.
+        - label: What does your development process look like?
+          content: |
+            I follow an iterative approach: requirements gathering, architecture design, development with CI/CD from day one, testing, and deployment on bare metal or virtual Linux servers. I keep clients in the loop throughout and prioritise maintainability and scalability.
+        - label: Can you handle full project delivery from design to deployment?
+          content: |
+            Absolutely. I've delivered complete projects end-to-end including UI/UX design, frontend and backend development, database setup, authentication, server configuration, and CI/CD automation. I can take a project from idea to production.
+    - title: About Me
+      questions:
+        - label: What is your engineering background?
+          content: |
+            I hold a BSc in Mechatronics Engineering from JKUAT (Nairobi), graduating with Upper Second Class Honours. This multidisciplinary background — spanning mechanical, electrical, and software systems — informs how I approach complex engineering problems holistically.
+        - label: What do you enjoy most about software engineering?
+          content: |
+            I love the challenge of designing systems that solve real problems elegantly. Whether it's a gift card loyalty platform, a smart lock controller, or a bulk SMS system, I find the most satisfaction in shipping something that genuinely works for real users in the real world.
+        - label: What are your hobbies outside of work?
+          content: |
+            Outside of engineering, I'm passionate about cars and car culture, board games, and music. I also follow the latest in tech and enjoy the occasional deep dive into cybersecurity — I completed my Certified Ethical Hacking (CEH) certification in late 2024.

@@ -1,0 +1,6 @@
+title: Herdwise - Livestock Data Collection
+description: Web application allowing offtakers to collect and manage data about their livestock farmers, including animal health records and farm profiles. Built with Angular and Firebase for real-time data and authentication.
+image: https://picsum.photos/seed/herdwise-project/1470/980
+url: https://herdwiseapp.web.app
+tags: ["Angular", "Firebase", "TypeScript", "UI/UX"]
+date: "2025"
