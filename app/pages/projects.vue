@@ -1,33 +1,36 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData("projects-page", () => {
-  return queryCollection("pages").path("/projects").first();
-});
+const { data: page } = await useAsyncData('projects-page', () => {
+  return queryCollection('pages').path('/projects').first()
+})
 if (!page.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: "Page not found",
-    fatal: true,
-  });
+    statusMessage: 'Page not found',
+    fatal: true
+  })
 }
 
-const { data: rawProjects } = await useAsyncData("projects", () => {
-  return queryCollection("projects").all();
-});
+const { data: rawProjects } = await useAsyncData('projects', () => {
+  return queryCollection('projects').all()
+})
 
-const projects = computed(() =>
-  rawProjects.value?.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-  ),
-);
+const projects = computed(() => {
+  if (rawProjects.value) {
+    return [...rawProjects.value].sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    )
+  }
+  return []
+})
 
-const { global } = useAppConfig();
+const { global } = useAppConfig()
 
 useSeoMeta({
   title: page.value?.seo?.title || page.value?.title,
   ogTitle: page.value?.seo?.title || page.value?.title,
   description: page.value?.seo?.description || page.value?.description,
-  ogDescription: page.value?.seo?.description || page.value?.description,
-});
+  ogDescription: page.value?.seo?.description || page.value?.description
+})
 </script>
 
 <template>
@@ -39,23 +42,29 @@ useSeoMeta({
       :ui="{
         title: 'mx-0! text-left',
         description: 'mx-0! text-left',
-        links: 'justify-start',
+        links: 'justify-start'
       }"
     >
       <template #links>
-        <div v-if="page.links" class="flex items-center gap-2">
+        <div
+          v-if="page.links"
+          class="flex items-center gap-2"
+        >
           <UButton
             :label="page.links[0]?.label"
             :to="global.meetingLink"
             v-bind="page.links[0]"
           />
-          <UButton :to="`mailto:${global.email}`" v-bind="page.links[1]" />
+          <UButton
+            :to="`mailto:${global.email}`"
+            v-bind="page.links[1]"
+          />
         </div>
       </template>
     </UPageHero>
     <UPageSection
       :ui="{
-        container: 'pt-0!',
+        container: 'pt-0!'
       }"
     >
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -75,7 +84,7 @@ useSeoMeta({
             :reverse="index % 2 === 1"
             class="group"
             :ui="{
-              wrapper: 'max-sm:order-last',
+              wrapper: 'max-sm:order-last'
             }"
             spotlight
             target="_blank"

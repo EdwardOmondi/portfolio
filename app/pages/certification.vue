@@ -30,8 +30,8 @@ const { global } = useAppConfig()
 const groupedEvents = computed((): Partial<Record<Event['category'], Event[]>> => {
   const events = page.value?.events || []
   const grouped: Record<Event['category'], Event[]> = {
-    'Certificate': [],
-    'Course': [],
+    Certificate: [],
+    Course: []
   }
   for (const event of events) {
     if (grouped[event.category]) grouped[event.category].push(event)
