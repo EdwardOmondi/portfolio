@@ -2,7 +2,7 @@ title: Certifications & Course
 description: Professional certifications and training courses in software engineering, cybersecurity, and business.
 links:
   - label: Download CV
-    to: /cv.pdf
+    to: /cv
     size: md
 events:
   - category: Certificate
