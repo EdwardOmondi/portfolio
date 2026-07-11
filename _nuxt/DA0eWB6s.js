@@ -1,0 +1,1 @@
+import{d as e,x as t,e as o,o as s}from"./Ed4qYTjk.js";const c=""+new URL("cv.DyD4MhqQ.svg",import.meta.url).href,n=["src"],_=e({__name:"cv",setup(r){return(a,l)=>(s(),t("img",{src:o(c),alt:"Edward Omondi - CV",class:"w-full h-auto"},null,8,n))}});export{_ as default};
