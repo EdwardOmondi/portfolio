@@ -76,38 +76,38 @@ blog:
   description: "Thoughts on software engineering, architecture, and building for the real world"
 faq:
   title: Frequently Asked Questions
-  description: Common questions about my work, process, and experience.
+  description: Common questions about my senior technical leadership, system architecture, and full-stack engineering experience.
   categories:
-    - title: Skills & Expertise
+    - title: Skills & Architecture Expertise
       questions:
         - label: What technologies do you specialise in?
           content: |
-            My core stack is Java (Spring Boot / Jakarta EE) on the backend, paired with Angular or Nuxt (Vue) on the frontend, with PostgreSQL as my go-to database. I also work with Flutter for mobile, Python for scripting and IoT (Raspberry Pi), Firebase, and DevOps tooling for CI/CD on Linux servers.
-        - label: Do you do both frontend and backend development?
+            My core specialty is architecting enterprise-grade applications using the Java/Spring ecosystem (Spring Boot, Jakarta EE) on the backend, paired with modern TypeScript frontends like Nuxt (Vue) or Angular, backed by optimized PostgreSQL relational databases. I also build high-performance mobile systems (Flutter, native Kotlin/Swift), maintain Python telemetry scripts for IoT deployments, and orchestrate CI/CD pipelines natively on bare-metal and virtual Linux environments.
+        - label: Do you design full system architectures?
           content: |
-            Yes, I'm a full-stack engineer. I design and implement REST APIs and microservices in Java/Spring, build responsive frontends in Angular or Nuxt/Vue, and handle everything in between — database design, authentication (Keycloak/OAuth 2.0), deployment, and server configuration.
-        - label: Have you worked with IoT or hardware projects?
+            Yes. Beyond full-stack development, I function as a Solutions Architect. I design scalable multi-tenant ledger systems, secure identity and access control models using Keycloak and OAuth 2.0 protocols, robust API contracts, and high-availability database schemas optimized for low-latency transaction handling.
+        - label: Have you worked with IoT or hardware integrations?
           content: |
-            Yes — my Mechatronics Engineering background gives me a unique edge here. I've built IoT systems using Raspberry Pi and Python, including an RFID-based point tracking system and a smart solenoid lock controller connected to a web application.
-    - title: Working Together
+            Yes. Leveraging my BSc in Mechatronics Engineering, I specialize in bridging hardware-software gaps. My portfolio includes production-grade IoT systems, such as programming custom Python firmware on Raspberry Pi edge devices to drive real-time solenoid lock automation, and building complex RFID-based tracking networks integrated into cloud ecosystems.
+    - title: Experience & Delivery
       questions:
-        - label: Are you available for freelance or contract work?
+        - label: What scale of projects have you managed?
           content: |
-            Yes, I'm open to freelance projects, contract engagements, and consulting. I've previously delivered end-to-end applications for clients across Kenya and Mexico. Feel free to reach out via email at ewomondi@gmail.com.
-        - label: What does your development process look like?
+            I have architected, launched, and continuously upgraded full-scale B2B multi-tenant enterprise platforms, automated transactional bulk messaging networks spanning international markets, and secure property technology automation solutions. I have an established track record driving end-to-end products from initial concept prototyping straight to stable production environments.
+        - label: What does your technical delivery process look like?
           content: |
-            I follow an iterative approach: requirements gathering, architecture design, development with CI/CD from day one, testing, and deployment on bare metal or virtual Linux servers. I keep clients in the loop throughout and prioritise maintainability and scalability.
-        - label: Can you handle full project delivery from design to deployment?
+            I treat operations and engineering holistically. My workflow covers technical requirements gathering, rigorous database and architectural modeling, secure-by-design authentication setups, continuous automated test pipelines via CI/CD pipelines, and high-availability deployments onto Linux infrastructures. I enforce strict clean architecture principles to ensure long-term code maintainability.
+        - label: Are you available for consulting or corporate contracts?
           content: |
-            Absolutely. I've delivered complete projects end-to-end including UI/UX design, frontend and backend development, database setup, authentication, server configuration, and CI/CD automation. I can take a project from idea to production.
-    - title: About Me
+            Yes. I accept senior contract roles, technical consulting engagements, and end-to-end system delivery for clients globally, with active project footprints across Kenya and Mexico. Please reach out directly via email at ewomondi@gmail.com to discuss project scopes.
+    - title: Background & Professional Focus
       questions:
-        - label: What is your engineering background?
+        - label: How does your engineering background shape your software approach?
           content: |
-            I hold a BSc in Mechatronics Engineering from JKUAT (Nairobi), graduating with Upper Second Class Honours. This multidisciplinary background — spanning mechanical, electrical, and software systems — informs how I approach complex engineering problems holistically.
-        - label: What do you enjoy most about software engineering?
+            I hold a BSc in Mechatronics Engineering from JKUAT (graduating with Upper Second Class Honours). This multidisciplinary training across electrical, mechanical, and software nodes enables me to analyze distributed systems holistically, troubleshoot hardware-to-cloud network heartbeats effectively, and design highly deterministic software architectures.
+        - label: What drives your work as an engineer?
           content: |
-            I love the challenge of designing systems that solve real problems elegantly. Whether it's a gift card loyalty platform, a smart lock controller, or a bulk SMS system, I find the most satisfaction in shipping something that genuinely works for real users in the real world.
-        - label: What are your hobbies outside of work?
+            I excel at translating complex business requirements into high-performance, resilient code bases. Shipping secure, highly available products—whether that is an enterprise gift card ledger or an automated remote access engine—that reliably solve tangible engineering and operational bottlenecks is what I enjoy most.
+        - label: Do you have specialized training in security or systems?
           content: |
-            Outside of engineering, I'm passionate about cars and car culture, board games, and music. I also follow the latest in tech and enjoy the occasional deep dive into cybersecurity — I completed my Certified Ethical Hacking (CEH) certification in late 2024.
+            Yes. I maintain a deep focus on security hardening and systems administration[cite: 2, 3]. I hold a Certified Ethical Hacker (CEH) certification from the EC-Council, completed specialized cybersecurity training at Strathmore University, and continuously audit systems against modern authentication and vulnerability management standards.
