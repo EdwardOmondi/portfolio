@@ -1,0 +1,36 @@
+# Edward Omondi
+
+> Full-Stack Software Engineer and Solutions Architect based in Nairobi, Kenya, with 5+ years of experience across the Java/Spring, Vue/Nuxt, and Angular ecosystems. Co-founder and architect of two live SaaS platforms. Background in Mechatronics Engineering bridging hardware and software (IoT, Raspberry Pi, RFID).
+
+Contact: ewomondi@gmail.com · https://github.com/EdwardOmondi · https://linkedin.com/in/edwardomondi-6644b7a8/
+
+## Core Skills
+
+- Backend: Java, Spring Boot, Spring MVC, Jakarta EE, FastAPI
+- Frontend: Vue.js, Nuxt, Angular
+- Mobile: Flutter, Kotlin (Jetpack Compose), Swift (SwiftUI)
+- Databases: PostgreSQL, MySQL, Firebase
+- Security: OAuth 2.0, Keycloak, Certified Ethical Hacker (CEH)
+- Messaging / Event-Driven Architecture: Apache Artemis, JMS
+- DevOps / Cloud: Linux, AWS, DigitalOcean, Docker, Kubernetes, Jenkins, CI/CD
+- IoT / Embedded: Raspberry Pi, microcontrollers, RFID
+
+## Experience
+
+- Software Engineer, Technovation Ventures Ltd (Jul 2022 - Present)
+- Software Architect & Co-Founder, Cardly (May 2025 - Present) - https://cardly.gift
+- Managing Director & Co-Founder, Aims (May 2022 - Present) - https://aims.homes
+- Freelance Software Developer, Nairobi, Kenya (Jan 2022 - Jul 2022)
+
+## Education
+
+- BSc. Mechatronics Engineering, JKUAT, Nairobi (2015-2021)
+
+## Pages
+
+- [Home](https://edwardomondi.github.io/): Overview, work experience, testimonials
+- [About](https://edwardomondi.github.io/about): Full background and tech stack
+- [Projects](https://edwardomondi.github.io/projects): Selected project case studies
+- [Blog](https://edwardomondi.github.io/blog): Articles on software engineering and architecture
+- [Certifications](https://edwardomondi.github.io/certification): Certificates and courses
+- [CV](https://edwardomondi.github.io/cv): Full resume

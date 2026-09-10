@@ -20,13 +20,23 @@ const blogNavigation = computed(() => navigation.value.find(item => item.path ==
 
 const breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(blogNavigation?.value, page.value?.path)).map(({ icon, ...link }) => link))
 
+const formatDate = (dateString: string) => {
+  return new Date(dateString).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  })
+}
+
 if (page.value.image) {
-  defineOgImage({ url: page.value.image })
+  defineOgImage('BlogPost', {}, { url: page.value.image })
 } else {
-  defineOgImageComponent('Blog', {
-    headline: breadcrumb.value.map(item => item.label).join(' > ')
-  }, {
-    fonts: ['Geist:400', 'Geist:600']
+  defineOgImage('BlogPost', {
+    title: page.value.title,
+    author: page.value.author?.name,
+    date: page.value.date ? formatDate(page.value.date) : undefined,
+    category: breadcrumb.value.map(item => item.label).join(' > '),
+    avatar: page.value.author?.avatar?.src
   })
 }
 
@@ -41,14 +51,6 @@ useSeoMeta({
 })
 
 const articleLink = computed(() => `${window?.location}`)
-
-const formatDate = (dateString: string) => {
-  return new Date(dateString).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric'
-  })
-}
 </script>
 
 <template>

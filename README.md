@@ -1,62 +1,70 @@
-# Nuxt Portfolio Template
+# Edward Omondi — Portfolio
 
 [![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+[![Deploy to GitHub Pages](https://github.com/EdwardOmondi/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/EdwardOmondi/portfolio/actions/workflows/deploy.yml)
 
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
+Personal portfolio and blog of Edward Omondi, a full-stack Software Engineer based in Nairobi, Kenya. Built with [Nuxt 4](https://nuxt.com) and [Nuxt UI](https://ui.nuxt.com), content-driven via [Nuxt Content](https://content.nuxt.com), and deployed as a static site to GitHub Pages.
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+**Live site:** https://edwardomondi.github.io
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-    <img alt="Nuxt Portfolio Template" src="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-  </picture>
-</a>
+## Features
 
-## Quick Start
+- Home, About, Projects, Blog, Certifications, and CV pages, all sourced from YAML/Markdown in `content/`
+- Light/dark mode throughout, built on Nuxt UI's theme-aware color tokens
+- Full-text `⌘K` content search across blog posts
+- SEO: auto-generated `sitemap.xml` and `robots.txt`, per-page canonical URLs and Open Graph images, a site-wide JSON-LD `Person` schema, and an `llms.txt` summary for AI crawlers
+- Fully static — prerendered at build time, no server required
 
-```bash [Terminal]
-npm create nuxt@latest -- -t ui/portfolio
-```
+## Tech Stack
 
-## Deploy your own
+- [Nuxt 4](https://nuxt.com) + [Vue 3](https://vuejs.org)
+- [Nuxt UI](https://ui.nuxt.com) + [Tailwind CSS v4](https://tailwindcss.com)
+- [Nuxt Content](https://content.nuxt.com) for YAML/Markdown-driven pages
+- [Nuxt Image](https://image.nuxt.com), [Nuxt OG Image](https://nuxtseo.com/og-image), [Nuxt Sitemap](https://nuxtseo.com/sitemap), [Nuxt Robots](https://nuxtseo.com/robots)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=portfolio&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fportfolio&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fportfolio-dark.png&demo-url=https%3A%2F%2Fportfolio-template.nuxt.dev%2F&demo-title=Nuxt%20Portfolio%20Template&demo-description=A%20sleek%20portfolio%20template%20to%20showcase%20your%20work%2C%20skills%20and%20blog%20powered%20by%20Nuxt%20Content.)
+## Getting Started
 
-## Setup
-
-Make sure to install the dependencies:
+This project uses [pnpm](https://pnpm.io).
 
 ```bash
 pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
 pnpm dev
 ```
 
-## Production
+The dev server runs at `http://localhost:3000`.
 
-Build the application for production:
+## Scripts
 
-```bash
-pnpm build
+| Command | Description |
+| --- | --- |
+| `pnpm dev` | Start the dev server |
+| `pnpm build` | Build for production (GitHub Pages preset) → `.output/public` |
+| `pnpm generate` | Static site generation |
+| `pnpm preview` | Preview the production build locally |
+| `pnpm lint` / `pnpm lint:fix` | Lint (and fix) with ESLint |
+| `pnpm typecheck` | Type-check with `nuxt typecheck` |
+
+## Content
+
+Page copy, projects, and blog posts live in `content/` and are validated against Zod schemas in `content.config.ts`:
+
+```
+content/
+├── index.yml           # Home page (hero, about, experience, testimonials, FAQ)
+├── about.yml            # About page
+├── projects.yml         # Projects page hero/meta
+├── projects/*.yml        # Individual project entries
+├── blog.yml              # Blog index hero/meta
+├── blog/*.md              # Blog posts
+└── certification.yml     # Certifications & courses
 ```
 
-Locally preview production build:
+Site-wide settings (profile picture, contact links, availability, footer) are in `app/app.config.ts`.
 
-```bash
-pnpm preview
-```
+## Deployment
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The site deploys to [`EdwardOmondi.github.io`](https://github.com/EdwardOmondi/EdwardOmondi.github.io) via [`./deploy.sh`](./deploy.sh), which builds the site and pushes `.output/public` to that repo's `main` branch. A GitHub Actions workflow (`.github/workflows/deploy.yml`) is also available to deploy directly from this repo's `main` branch to GitHub Pages.
 
-## Renovate integration
+## License
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+[MIT](./LICENSE)

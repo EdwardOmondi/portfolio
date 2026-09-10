@@ -4,7 +4,7 @@ set -e
 echo "Starting deployment process..."
 rm -rf .output
 rm -rf EdwardOmondi.github.io
-npm run build
+pnpm run build
 
 rm -rf .output/public/.DS_Store
 # get commit message

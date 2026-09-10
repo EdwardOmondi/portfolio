@@ -22,14 +22,24 @@
     "better-sqlite3": "^12.9.0",
     "motion-v": "^2.2.1",
     "nuxt": "^4.4.2",
-    "nuxt-og-image": "^5.1.13",
+    "nuxt-og-image": "^6.7.8",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
+    "@nuxtjs/robots": "^6.2.1",
+    "@nuxtjs/sitemap": "^8.5.0",
     "eslint": "^10.2.0",
     "typescript": "^6.0.2",
     "vue-tsc": "^3.2.6"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild",
+      "unrs-resolver",
+      "vue-demi"
+    ]
+  }
 }
