@@ -7,15 +7,15 @@ content: |
 
   ### My Tech Stack
 
-  On the backend, I work primarily in **Java** — with Spring Boot, Spring MVC, and Jakarta EE — backed by **PostgreSQL** for data persistence and **Keycloak** for OAuth 2.0 authentication. On the frontend, I build with **Angular** and **Nuxt (Vue)**, and use **Flutter** for cross-platform mobile apps. I deploy and maintain applications on bare metal and virtual Linux servers with automated CI/CD pipelines.
+  On the backend, I work primarily in **Java** — with Spring Boot, Spring MVC, Jakarta EE, and FastAPI — backed by **PostgreSQL**/MySQL for data persistence, **Keycloak** for OAuth 2.0 authentication, and **Apache Artemis** message queues for event-driven, asynchronous processing. On the frontend, I build with **Angular** and **Nuxt (Vue)**, and ship native mobile apps with **Flutter**, Kotlin (Jetpack Compose), and Swift (SwiftUI). I deploy and maintain applications on bare metal and virtual Linux servers — across AWS, DigitalOcean, Docker, and Kubernetes — with automated CI/CD pipelines.
 
   ### What I've Built
 
-  I co-founded and built **[Cardly](https://cardly.gift)** — a full-scale Vue/Spring Boot gift card and loyalty platform — and **[Aims](https://aims.homes/demo)** — an Angular/Spring Boot application connected to a Raspberry Pi that controls smart locks for short-term rental units. I've also delivered projects like **[Herdwise](https://herdwiseapp.web.app)** (livestock data collection) and a bulk SMS platform for clients in Mexico.
+  I co-founded and built **[Cardly](https://cardly.gift)** — a full-scale Vue/Spring Boot gift card and loyalty platform — and **[Aims](https://aims.homes/demo)** — an Angular/Spring Boot application connected to a Raspberry Pi that controls smart locks for short-term rental units. I've also delivered projects like **[Herdwise](https://herdwiseapp.web.app)** (livestock data collection), a bulk SMS platform for clients in Mexico, an RFID-based points scanning system for an entertainment venue, and a Nuxt/Spring Boot campaign management and donation tracking platform.
 
   ### Beyond the Code
 
-  Outside of work, I'm a car enthusiast, board game fan, and music lover. I completed my **Certified Ethical Hacking (CEH)** certification in late 2024, which feeds my interest in building secure, robust systems.
+  Outside of work, I'm a car enthusiast, board game fan, and music lover. I completed my **Certified Ethical Hacking (CEH)** certification in late 2024, alongside an Introduction to Cyber Security certification with Cisco, which feed my interest in building secure, robust systems.
 
   Feel free to browse my [projects](/projects) or [get in touch](mailto:ewomondi@gmail.com) if you'd like to collaborate!
 images:

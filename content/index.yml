@@ -31,11 +31,11 @@ hero:
 about:
   title: "About Me"
   description: |
-    Full-stack Software Engineer with 5+ years of experience designing, building, and deploying scalable web and mobile applications. I specialise in Java/Spring ecosystems and modern frameworks like Angular and Nuxt (Vue), combining a Mechatronics Engineering background to bridge hardware-software gaps — from REST APIs to IoT controllers.
+    Full-Stack Software Engineer and Solutions Architect with 5+ years of experience designing, building, and maintaining production web and mobile applications across the Java/Spring, Vue/Nuxt, and Angular ecosystems. I've co-founded and architected two live SaaS platforms, integrating secure OAuth 2.0/Keycloak authentication and event-driven architectures with Apache Artemis. My Mechatronics Engineering background lets me own hardware-connected IoT systems end-to-end — from REST APIs to Raspberry Pi controllers.
 experience:
   title: Work Experience
   items:
-    - position: "Co-Founder & Software Architect"
+    - position: "Software Architect & Co-Founder"
       date: "2025 - Present"
       company:
         name: Cardly
@@ -49,7 +49,7 @@ experience:
         logo: "i-lucide-code-2"
         url: "https://technovation.co.ke/"
         color: "#2563EB"
-    - position: "MD & Co-Founder"
+    - position: "Managing Director & Co-Founder"
       date: "2022 - Present"
       company:
         name: Aims
@@ -82,7 +82,7 @@ faq:
       questions:
         - label: What technologies do you specialise in?
           content: |
-            My core specialty is architecting enterprise-grade applications using the Java/Spring ecosystem (Spring Boot, Jakarta EE) on the backend, paired with modern TypeScript frontends like Nuxt (Vue) or Angular, backed by optimized PostgreSQL relational databases. I also build high-performance mobile systems (Flutter, native Kotlin/Swift), maintain Python telemetry scripts for IoT deployments, and orchestrate CI/CD pipelines natively on bare-metal and virtual Linux environments.
+            My core specialty is architecting enterprise-grade applications using the Java/Spring ecosystem (Spring Boot, Jakarta EE, FastAPI) on the backend, paired with modern TypeScript frontends like Nuxt (Vue) or Angular, backed by PostgreSQL/MySQL relational databases and Apache Artemis message queues for event-driven processing. I also build high-performance mobile systems (Flutter, native Kotlin/Swift), maintain Python telemetry scripts for IoT deployments, and orchestrate CI/CD pipelines across AWS, DigitalOcean, Docker, and Kubernetes on bare-metal and virtual Linux environments.
         - label: Do you design full system architectures?
           content: |
             Yes. Beyond full-stack development, I function as a Solutions Architect. I design scalable multi-tenant ledger systems, secure identity and access control models using Keycloak and OAuth 2.0 protocols, robust API contracts, and high-availability database schemas optimized for low-latency transaction handling.
@@ -110,4 +110,4 @@ faq:
             I excel at translating complex business requirements into high-performance, resilient code bases. Shipping secure, highly available products—whether that is an enterprise gift card ledger or an automated remote access engine—that reliably solve tangible engineering and operational bottlenecks is what I enjoy most.
         - label: Do you have specialized training in security or systems?
           content: |
-            Yes. I maintain a deep focus on security hardening and systems administration[cite: 2, 3]. I hold a Certified Ethical Hacker (CEH) certification from the EC-Council, completed specialized cybersecurity training at Strathmore University, and continuously audit systems against modern authentication and vulnerability management standards.
+            Yes. I maintain a deep focus on security hardening and systems administration. I hold a Certified Ethical Hacker (CEH) certification from the EC-Council, completed an Introduction to Cyber Security certification with Cisco, and continuously audit systems against modern authentication and vulnerability management standards.
